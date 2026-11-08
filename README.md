@@ -1,99 +1,235 @@
-# ⚡ VelocityType Pro – Ultimate Typing Speed Challenge
+# ⚡ VelocityType Pro — Ultimate Typing Speed Challenge
 
-> A professional, precision typing engine and speed challenge platform inspired by Monkeytype, TypeRacer, and competitive esports typing rigs. Built with a unified MERN and NestJS-patterned architecture contained completely inside one clean project directory (zero fragmented backend subfolders).
+<p align="center">
+  A precision-engineered typing speed platform designed for developers, competitive typists, and productivity enthusiasts.
+</p>
 
-Live Demo: https://typing-speed-challenge-kappa.vercel.app/
+<p align="center">
+  <a href="https://typing-speed-challenge-kappa.vercel.app/"><strong>🚀 Live Demo</strong></a>
+</p>
+
+---
+
+## 📖 Overview
+
+**VelocityType Pro** is a feature-rich typing speed and performance analysis platform inspired by Monkeytype, TypeRacer, and competitive esports typing environments.
+
+It combines a responsive typing engine, real-time performance metrics, customizable challenges, mechanical keyboard sound effects, detailed analytics, and leaderboard functionality into one modern application.
+
+The project follows a unified, single-project architecture, combining a React-based frontend with a modular, NestJS-inspired backend design and an Express REST API.
 
 ## 🌟 Key Features
 
 ### 1. 🎯 Precision Typing Engine
-- **Instantaneous Real-Time Metrics**: Live Gross WPM, Net WPM, CPM, and dynamic Accuracy % updated every keystroke and second.
-- **Micro-Smooth Caret**: Configurable caret styles:
-  - *Smooth Line* (sliding dynamic pulse)
-  - *Full Block* (terminal style)
-  - *Underline* (classic prompt)
-  - *Pulsing Bar*
-- **Accurate Character Differential**: Distinct color-coded visual feedback for correct letters, mistyped letters, extra letters, and untyped characters with auto-scrolling viewport.
-- **Pro Keystroke Shortcuts**:
-  - `Tab + Enter`: Instant test restart
-  - `Esc`: Cancel or reset session
-  - `Ctrl + Backspace`: Delete whole active word
-  - `Space`: Submit word & advance
-- **Caps Lock Guard**: Floating responsive banner when Caps Lock is enabled.
 
-### 2. 🎛️ Comprehensive Challenge Modes
-- **⏱️ Time Limits**: 15s, 30s, 60s, 120s rapid tests.
-- **📝 Word Limits**: 10, 25, 50, 100 word stamina tests.
-- **💬 Famous Quotes**: Quotes by Steve Jobs, Alan Turing, Ada Lovelace, Albert Einstein, Marcus Aurelius, Carl Sagan, Marie Curie, etc., with real author attribution.
-- **💻 Code Snippet Mode**: Real syntax challenges for developers (JavaScript, TypeScript, Python, Rust, HTML) practicing syntax, braces, brackets, and operators.
-- **🧘 Zen Mode**: Endless flow-state typing practice with zero timer pressure.
-- **⚙️ Custom Text Mode**: Paste your own articles, legal briefs, essays, or book excerpts.
+- **Real-Time Performance Metrics:** Instantly track Gross WPM, Net WPM, CPM, and typing accuracy.
+- **Smooth Caret Animations:** Choose from four caret styles:
+  - Smooth Line
+  - Full Block
+  - Underline
+  - Pulsing Bar
+- **Character-Level Feedback:** Color-coded highlighting for correct, incorrect, extra, and untyped characters.
+- **Automatic Viewport Scrolling:** Keeps the active typing position visible.
+- **Keyboard Shortcuts:**
+  - `Tab + Enter` — Restart the current test.
+  - `Esc` — Cancel or reset the session.
+  - `Ctrl + Backspace` — Delete the active word.
+  - `Space` — Submit the current word and advance.
+- **Caps Lock Detection:** Displays a responsive warning when Caps Lock is enabled.
 
-### 3. 🔊 Web Audio Mechanical Keyboard Synthesizer
-- Zero external MP3 network dependencies! Real-time procedural audio synthesis using the Web Audio API:
-  - **Cherry MX Blue**: Tactile crisp click with metallic case resonance.
-  - **Cherry MX Brown**: Damped mechanical "thock".
-  - **Vintage Typewriter**: Heavy mechanical punch + typewriter bell strike.
-  - **Bubble Pop**: Modern soothing ASMR water pop.
-  - **Volume Slider** & **Mute Toggle**.
+### 2. 🎛️ Multiple Challenge Modes
 
-### 4. 📊 Performance Analytics & Interactive Visuals
-- **Dynamic Progression Chart**: SVG timeline plotting Net WPM vs Raw WPM second-by-second with red error dots marking exact mistake points.
-- **Keystroke Diagnostic Matrix**: Correct, Incorrect, Extra, and Missed keystroke breakdown.
-- **Weak Keys Heatmap**: Detects and highlights your most frequent mistake keys (e.g. `'p'`, `';'`) to focus your practice.
-- **Rhythm Consistency Metric**: Measures keystroke variance and rhythm uniformity (0-100%).
-- **Celebratory Confetti Explosion**: Powered by `canvas-confetti` when achieving high scores or breaking a Personal Best!
-- **Share Result Card**: One-click clipboard copy with formatted ASCII summary for Discord, Twitter/X, and Reddit.
+Practice typing through different challenge formats:
 
-### 5. 🏆 Global Leaderboard & Player Profile
-- **Global Leaderboard**: Realistic top-tier world records with Gold 👑, Silver 🥈, Bronze 🥉 medals and live user rank updates.
-- **Mode-Specific Filters**: Filter rankings by Time, Words, Quotes, and Code.
-- **Career Stats Profile**: Personal Best (PB), Average WPM, Overall Accuracy, Total Tests Taken, and Total Time Typed.
-- **Historical Session Log**: Detailed log of past tests with timestamps.
+| Mode | Description |
+|---|---|
+| Time Challenge | 15, 30, 60, and 120-second tests |
+| Word Challenge | 10, 25, 50, and 100-word tests |
+| Famous Quotes | Inspirational quotes with author attribution |
+| Code Mode | Programming challenges in JavaScript, TypeScript, Python, Rust, and HTML |
+| Zen Mode | Unlimited typing without time pressure |
+| Custom Text | Practice with your own articles, essays, and documents |
 
-### 6. 🎨 Designer Color Themes & Typography
-- **Midnight Cyber** (Deep slate, electric indigo & neon cyan)
-- **Canary Gold** (Monkeytype beloved dark charcoal & banana yellow)
-- **Dracula Synth** (Midnight purple & neon pink/green)
-- **Matcha Forest** (Dark forest moss & emerald mint)
-- **Nordic Clean** (Crisp high-contrast light theme)
-- **Espresso Dusk** (Warm roasted coffee & amber)
-- **Typography switcher**: *JetBrains Mono*, *Fira Code*, *Roboto Mono*, *Inter*.
+### 3. 🔊 Mechanical Keyboard Sound Engine
+
+Experience immersive typing feedback with procedural sound synthesis using the **Web Audio API**.
+
+Available sound profiles:
+
+- **Cherry MX Blue:** Crisp mechanical clicks with tactile feedback.
+- **Cherry MX Brown:** Soft, dampened mechanical thock.
+- **Vintage Typewriter:** Classic typewriter-style mechanical sounds.
+- **Bubble Pop:** Smooth and satisfying ASMR-inspired effects.
+
+Additional controls:
+- Adjustable volume.
+- Instant mute/unmute.
+- No external MP3 dependencies.
+
+### 4. 📊 Performance Analytics & Visualization
+
+Understand your typing performance with detailed analytics.
+
+- **Live WPM Graph:** Visualize Net WPM and Raw WPM progression over time.
+- **Error Tracking:** Identify typing mistakes throughout each session.
+- **Keystroke Diagnostic Matrix:** Analyze correct, incorrect, extra, and missed characters.
+- **Weak-Key Heatmap:** Identify frequently mistyped keys and improve accuracy.
+- **Rhythm Consistency:** Measure typing consistency using a 0–100% metric.
+- **Personal Best Tracking:** Celebrate new records with animated confetti.
+- **Shareable Results:** Copy formatted performance summaries for Discord, Reddit, and X.
+
+### 5. 🏆 Leaderboard & Player Profiles
+
+Track your progress and compete with other typists.
+
+- Global leaderboard with Gold, Silver, and Bronze rankings.
+- Mode-specific leaderboard filters.
+- Personal Best (PB) tracking.
+- Average WPM and overall accuracy.
+- Total tests completed.
+- Total typing time.
+- Historical session logs with timestamps.
+
+### 6. 🎨 Custom Themes & Typography
+
+Personalize your typing environment with six carefully designed themes:
+
+| Theme | Design Style |
+|---|---|
+| Midnight Cyber | Deep slate, electric indigo, and neon cyan |
+| Canary Gold | Dark charcoal with vibrant yellow |
+| Dracula Synth | Midnight purple with neon accents |
+| Matcha Forest | Forest green and emerald tones |
+| Nordic Clean | Minimal, crisp, high-contrast light theme |
+| Espresso Dusk | Warm coffee-inspired colors and amber accents |
+
+**Typography Options:**
+- JetBrains Mono
+- Fira Code
+- Roboto Mono
+- Inter
 
 ---
 
 ## 🏗️ Architecture & Technology Stack
 
-The project fulfills the user specification: **"no backend folder needed creat it all in project folder . in this project use mern and nest js"**:
+VelocityType Pro uses a unified project architecture with a modular backend design.
 
-- **Unified Single-Folder Architecture**: Everything is self-contained directly inside the project root without separate disjointed outer folders.
-- **Frontend Stack (MERN)**: React 19, TypeScript, Vite, Tailwind CSS, Lucide Icons, Canvas-Confetti.
-- **NestJS-Patterned Architecture (`src/backend/`)**:
-  - `controllers/leaderboard.controller.ts`
-  - `services/leaderboard.nest-service.ts`
-  - `dto/create-score.dto.ts` (with strict schema validation)
-- **Standalone Node/Express REST API (`api-server.mjs`)**:
-  - Direct REST endpoints: `GET /api/leaderboard`, `POST /api/leaderboard`, `GET /api/health`
-  - Local database file `server-db.json` with zero database setup required.
+### Frontend
+
+- React 19
+- TypeScript
+- Vite
+- Tailwind CSS
+- Lucide React
+- Canvas Confetti
+- Web Audio API
+
+### Backend
+
+- Node.js
+- Express.js
+- NestJS-inspired modular architecture
+- REST API
+- JSON-based local persistence
+
+### REST API
+
+The standalone Express API is implemented in `api-server.mjs`.
+
+| Method | Endpoint | Description |
+|---|---|---|
+| GET | `/api/health` | Check API server status |
+| GET | `/api/leaderboard` | Retrieve leaderboard data |
+| POST | `/api/leaderboard` | Submit a new score |
+
+**Data Persistence:** Uses a local `server-db.json` file, avoiding the need for an external database during local development.
+
+> **Architecture Note:** The project uses a NestJS-inspired modular structure alongside Express.js. It is not a full NestJS application.
 
 ---
 
 ## 🚀 Getting Started
 
-### 1. Run the Frontend Web Application
+Follow these steps to run the project locally.
+
+### Prerequisites
+
+- Node.js (LTS recommended)
+- npm
+- Git
+
+### 1. Clone the Repository
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_URL
+cd VelocityType-Pro
+```
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Start the Frontend
+
 ```bash
 npm run dev
 ```
-Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-### 2. (Optional) Run the Integrated NestJS/MERN REST API Server
+Open the application:
+
+`http://localhost:5173`
+
+### 4. Start the Backend API (Optional)
+
+Open another terminal in the project root:
+
 ```bash
 node api-server.mjs
 ```
-The REST API will start on [http://localhost:5050](http://localhost:5050).
 
-### 3. Build for Production
+The REST API will be available at:
+
+`http://localhost:5050`
+
+### 5. Build for Production
+
 ```bash
 npm run build
 ```
-Creates an optimized production bundle in `dist/`.
+
+The optimized production build will be generated inside the `dist/` directory.
+
+---
+
+## 🌐 Live Application
+
+<p align="center">
+  <a href="https://typing-speed-challenge-kappa.vercel.app/">
+    <strong>⚡ Experience VelocityType Pro</strong>
+  </a>
+</p>
+
+**Live URL:** https://typing-speed-challenge-kappa.vercel.app/
+
+---
+
+## 👨‍💻 Developer
+
+**Asadut Jaman**  
+Software Engineer | Full-Stack MERN Developer
+
+- GitHub: https://github.com/Asadul09
+- Portfolio: https://portfolio-website-pi-five-83.vercel.app/
+
+---
+
+<p align="center">
+  Built with ❤️ by <strong>Asadut Jaman</strong>
+</p>
+
+<p align="center">
+  ⚡ Type Faster. Think Sharper. Go Beyond.
+</p>
