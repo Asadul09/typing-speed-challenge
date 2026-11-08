@@ -68,6 +68,7 @@ Additional controls:
 - No external MP3 dependencies.
 
 ### 4. 📊 Performance Analytics & Visualization
+![VelocityType Pro - Performance Analytics Dashboard](https://raw.githubusercontent.com/Asadul09/typing-speed-challenge/6db1a21fa3f60670c6ccbab847a5816acf5fb684/Performance.png)
 
 Understand your typing performance with detailed analytics.
 
@@ -80,6 +81,7 @@ Understand your typing performance with detailed analytics.
 - **Shareable Results:** Copy formatted performance summaries for Discord, Reddit, and X.
 
 ### 5. 🏆 Leaderboard & Player Profiles
+![VelocityType Pro - Global Leaderboard](https://raw.githubusercontent.com/Asadul09/typing-speed-challenge/6db1a21fa3f60670c6ccbab847a5816acf5fb684/Leaderboard.png)
 
 Track your progress and compete with other typists.
 
