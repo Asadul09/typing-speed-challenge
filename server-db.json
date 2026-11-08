@@ -1,0 +1,31 @@
+{
+  "scores": [
+    {
+      "id": "1",
+      "username": "SpeedDemon",
+      "wpm": 148,
+      "accuracy": 99.2,
+      "mode": "time",
+      "modeDetail": "60s",
+      "timestamp": 1794150032080
+    },
+    {
+      "id": "2",
+      "username": "CyberTypist",
+      "wpm": 135,
+      "accuracy": 98.5,
+      "mode": "words",
+      "modeDetail": "50 words",
+      "timestamp": 1794150032080
+    },
+    {
+      "id": "3",
+      "username": "MatrixCoder",
+      "wpm": 122,
+      "accuracy": 97.8,
+      "mode": "code",
+      "modeDetail": "TypeScript",
+      "timestamp": 1794150032080
+    }
+  ]
+}
