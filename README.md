@@ -1,8 +1,8 @@
 # ⚡ VelocityType Pro – Ultimate Typing Speed Challenge
 
-> A professional, precision typing engine and speed challenge platform inspired by Monkeytype, TypeRacer, and competitive esports typing rigs. Built with a unified **MERN** and **NestJS-patterned** architecture contained completely inside one clean project directory (zero fragmented backend subfolders).
+> A professional, precision typing engine and speed challenge platform inspired by Monkeytype, TypeRacer, and competitive esports typing rigs. Built with a unified MERN and NestJS-patterned architecture contained completely inside one clean project directory (zero fragmented backend subfolders).
 
----
+Live Demo: https://typing-speed-challenge-kappa.vercel.app/
 
 ## 🌟 Key Features
 
