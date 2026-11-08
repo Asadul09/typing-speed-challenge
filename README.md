@@ -17,6 +17,7 @@
 It combines a responsive typing engine, real-time performance metrics, customizable challenges, mechanical keyboard sound effects, detailed analytics, and leaderboard functionality into one modern application.
 
 The project follows a unified, single-project architecture, combining a React-based frontend with a modular, NestJS-inspired backend design and an Express REST API.
+![VelocityType Pro - Ultimate Typing Speed Challenge Main Interface](https://raw.githubusercontent.com/Asadul09/typing-speed-challenge/f0616365400cb3a4aae6fa77d109918e69656218/Home.png)
 
 ## 🌟 Key Features
 
